@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Equi Armorum </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/equiarmorum.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="infok.html">INFÓK</a></li>
+                    <li><a href="felszereles.html">FELSZERELÉS</a></li>
+                    <li><a href="kapcsolat.html">KAPCSOLAT</a></li>
+                
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+ <div class="text-box">
+     <h1>A lófelszerelések beszerzése</h1>
+     <p>Itt megtanulhatod, hogy mire érdemes többet költeni, és mi az, amit olcsóbban is beszerezhetsz.</p>
+     <a href="#info" class="hero-btn">Nézz körül és tanulj!</a>
+        </div>
+        
+    </section>
+    
+   <!-----Informacio---->
+    <section class="info" id="info">
+        <h1>Miért nézz körül az oldalon? 
+        </h1>
+        <p>Tapasztalatból szerzett információt osztok meg, amit felhasználhatsz a könnyebb és sporlós bevásárláshoz ebben a drága lovasvilágban.</p>
+        
+        <div class="row">
+            <div class="info-col">
+                <h3>Bőrfelszerelések</h3>
+                <p>Megtudhatsz többet az elérhetőbb áru bőrfelszerelésekről és megtudhatod, hogy miben különbözik a legjobb márkák terméke a közepes kategóriába soroltakétól.</p>
+            </div>
+            <div class="info-col">
+                <h3>Textilfelszerelések</h3>
+                <p>Betekinthetsz a nyeregalátétek, fáslik, lábvédők, takarók beszerzésének rejtelmeibe.</p>
+            </div>
+            <div class="info-col">
+                <h3>Apolóeszközök</h3>
+                <p>A lovadnak a megfelelő ápolásra van szüksége a megfelelő kondició nyújtásának érdekében. Itt megtudhatod, hogy hol találhatsz minőségi és elfogadható áron ápolófelszerelést.</p>
+            </div>
+        </div>
+        
+        
+        
+    </section>
+    
+    
+    <!---------Bevezeto------->
+    
+ <section class="bevez">
+    <h1>Mit is tudhatsz itt meg pontosan?</h1>
+     <p>Tapasztalatból szerzett információkkal segítek megtalálni minden felszereléshez a lehető legolcsóbb, egyben legjobb minőségű megoldást. Megtudhatod, hogy az én tapasztalataim alapján mire érdemes többet költeni és mire elegendő az olcsóbbik kategóriát böngészni.</p>
+     
+     <div class="row">
+         <div class="bevez-col">
+             <img src="images/tackroom4.jpg">
+         </div>
+     </div>
+     
+     
+     
+     
+     
+    </section>
+    
+    <!-----Kapcsolat----->
+    
+    <section class="call">
+        <a href="kapcsolat.html" class="hero-btn">KÉRDEZZ TÖBBET</a>
+    </section>
+    
+    <!-----Lablec------>
+    
+    <section class="Ll">
+        <h4>Rólam</h4>
+        <p>Tudj meg többet tapasztalataimról és lovas életemről egészen a kezdetektől.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p><i class="fa fa-heart-o"></i> Készítette Balázs Dorottya <i class="fa fa-heart-o"></i> </p>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!----JavaScript small device Menu ------> 
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    </script>
+    
+</body>
+</html>

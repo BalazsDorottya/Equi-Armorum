@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Equi Armorum </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/equiarmorum.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="infok.html">INFÓK</a></li>
+                    <li><a href="felszereles.html">FELSZERELÉS</a></li>
+                    <li><a href="kapcsolat.html">KAPCSOLAT</a></li>
+                
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>TUDJ MEG TÖBBET RÓLAM</h1>
+        
+ </section>
+    
+    <!-----TARTALOM-------->
+    
+    <section class="rolam">
+        
+        <div class="row">
+            <div class="rolam-col">
+                <h1>Egy lovas életéről</h1>
+                <p>A nevem Balázs Dorottya. 2004.február 22-én születtem. 2011. szeptemberében (7 évesen) kezdtem el a lovas sport rendszeres gyakorlását, amit megelőzott már, 3 éves koromtól kezdődően, egy lóbolond kislány álma. 6 év rendszeres lovaglás után kaptam meg első lovamat, Vesztát, akivel kizárólag eredményes díjugrató versenyeink voltak. Szinte nem volt olyan verseny, amiről helyezés nélkül mentünk volna haza. 2020-ban Románia Nemzeti Bajnoka címet nyertünk az Amatőr 2-es kategóriában (1-1,15m-es pályán). 2021 őszén új tagja lett a kis csapatomnak, hiszen egy 4 éves ló csatlakozott hozzánk, Cassroy, akinek a teljes betanításáért vagyok felelős. Ez által rengeteg tapasztalatra tehetek szert és fejleszthetem saját tudásomat is.
+                <br>Fontosnak tartom, hogy lovasként kiemeljem, hogy ez a sport nem a győzelemről és a közönség előtt nyert sikerről szól. Ez a sport egy ló és lovasa kapcsolatának fejlődéséről és személyes, apró sikereikről szól, amit egymást kisegítve és szeretettel érhetnek el. Azért tartom lényegesnek a felszereléseink minőségét, hogy a lovam jó körülmények között és kényelemben léphessen fel a pályára.</p>
+                <!--<a href="" class="hero-btn green-btn">FEDEZZ FEL TÖBBET</a>-->
+            </div>
+            <div class="rolam-col">
+                <img src="images/rolam2.jpg">
+            </div>
+        
+        </div>
+        <div class="verseny">
+        <video src="images/video.mp4" controls></video>
+        </div>
+    </section>
+  
+    
+    
+    
+     
+     
+     
+     
+     
+    
+    <!-----Lablec------>
+    
+    <section class="Ll">
+        <h4>Rólam</h4>
+        <p>Tudj meg többet tapasztalataimról és lovas életemről egészen a kezdetektől.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p><i class="fa fa-heart-o"></i> Készítette Balázs Dorottya <i class="fa fa-heart-o"></i> </p>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!----JavaScript small device Menu ------> 
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    </script>
+    
+</body>
+</html>
