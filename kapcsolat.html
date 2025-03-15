@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Equi Armorum </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/equiarmorum.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="infok.html">INFÓK</a></li>
+                    <li><a href="felszereles.html">FELSZERELÉS</a></li>
+                    <li><a href="kapcsolat.html">KAPCSOLAT</a></li>
+                
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>KÉRDEZZ TÖBBET!</h1>
+        
+ </section>
+    
+   <!------- kapcsolat --------->
+    
+  <section class="location">
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10950.676788939198!2d23.44650178096927!3d46.672791838032516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4749112fabd7b561%3A0x929dd67f701d7e87!2zVG9yZGFzemVudGzDoXN6bMOz!5e0!3m2!1shu!2sro!4v1676550687226!5m2!1shu!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</section>
+     
+<section class="contact-us">
+    
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                   <h5>Pap utca, 350.</h5> 
+                    <p>Tordaszetlaszlo,jud.Cluj,România</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                   <h5>+40-741665308</h5> 
+                    <p>Hétfő-Péntek: 10:00-16:00</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                   <h5>balazsdorottya22@gmail.com</h5> 
+                    <p>Emailen keresztül is megkereshetsz</p>
+                </span>
+            </div>
+        </div>
+        
+        <div class="contact-col">
+        
+            <form action="form-handler.php" method="post">
+                <input type="text" name="nev" placeholder="Nev" required>
+                <input type="email" name="email" placeholder="Email cim" required>
+                <input type="text" name="szoveg" placeholder="Targy" required>
+                <textarea rows="8" name="uzenet" placeholder="Uzenet" required></textarea>
+                <button type="submit" class="hero-btn green-btn">Küldj üzenetet</button>
+            </form>
+            
+        </div>
+        
+        
+    </div>
+    
+    </section>     
+     
+     
+     
+    
+    <!-----Lablec------>
+    
+    <section class="Ll">
+        <h4>Rólam</h4>
+        <p>Tudj meg többet tapasztalataimról és lovas életemről egészen a kezdetektől.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p><i class="fa fa-heart-o"></i> Készítette Balázs Dorottya <i class="fa fa-heart-o"></i> </p>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!----JavaScript small device Menu ------> 
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    </script>
+    
+</body>
+</html>
